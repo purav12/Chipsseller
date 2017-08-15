@@ -1,0 +1,287 @@
+﻿   .fp-bg
+        {
+            float: left;
+            padding: 30px 0 0;
+            width: 100%;
+        }
+        .fp-title
+        {
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        .fp-title h1
+        {
+            color: #854220;
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 18px;
+            padding: 0 0 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .fp-main
+        {
+            background: url("./images/title-bg.png") repeat-x scroll left top #dedede;
+            float: left;
+            width: 100%;
+        }
+        .fp-pro-bg
+        {
+            background: url("./images/title-bullet.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+            margin: 0 auto;
+            max-width: 1440px;
+            padding: 15px 0 0;
+        }
+        .fp-box
+        {
+            border: 1px solid #d0d0d0;
+            float: left;
+            margin: 0 16px 0 0;
+            overflow: hidden;
+            position: relative;
+            width: 256px;
+        }
+        .fp-display
+        {
+            background: none repeat scroll 0 0 #fff;
+            float: left;
+            height: 235px;
+            text-align: center;
+            width: 100%;
+        }
+        .fp-display span
+        {
+            display: inline-block;
+            height: 100%;
+        }
+        .fp-display *
+        {
+            vertical-align: middle;
+        }
+        .fp-detail
+        {
+            background: none repeat scroll 0 0 #f5f4f4;
+            bottom: -57px;
+            float: left;
+            padding: 15px 0 0;
+            position: absolute;
+            transition: all 0.4s ease 0s;
+            width: 100%;
+        }
+        .fp-detail h4
+        {
+            float: left;
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 16px;
+            margin: 0;
+            max-height: 35px;
+            overflow: hidden;
+            padding: 0 2%;
+            text-align: center;
+            text-transform: uppercase;
+            width: 96%;
+        }
+        .fp-detail h4 a
+        {
+            color: #222;
+        }
+        .fp-detail h4 a:hover
+        {
+            color: #854220;
+        }
+        .price
+        {
+            color: #854220;
+            float: left;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 15px;
+            padding: 10px 0 5px;
+            text-align: center;
+            width: 100%;
+        }
+        .rating
+        {
+            float: left;
+            padding: 0 0 10px;
+            text-align: center;
+            width: 100%;
+        }
+        .rating img
+        {
+            margin: 0 2px 0 0;
+        }
+        .fp-detail-main
+        {
+            float: left;
+            height: 92px;
+            position: relative;
+            width: 100%;
+        }
+        .fp-box:hover .fp-detail
+        {
+            bottom: 0;
+            cursor: pointer;
+            transition: all 0.4s ease 0s;
+        }
+        .pro-box
+        {
+            float: left;
+            width: 100%;
+        }
+        
+        
+        .pro-main
+        {
+            float: left;
+            padding: 0;
+            width: 120%;
+        }
+        .fp-pro-box
+        {
+            border: 1px solid #d0d0d0;
+            float: left;
+            margin: 10px 8px 0 0;
+            overflow: hidden;
+            position: relative;
+            width: 273px;
+        }
+        .fp-pro-box:hover .fp-detail
+        {
+            bottom: 0;
+            cursor: pointer;
+            transition: all 0.4s ease 0s;
+        }
+        .new-arrival-icon
+        {
+            background: url("./images/combine-bg.png") no-repeat scroll -194px -59px rgba(0, 0, 0, 0);
+            float: left;
+            height: 18px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 77px;
+        }
+        .best-seller-icon
+        {
+            background: url("./images/combine-bg.png") no-repeat scroll -194px -82px rgba(0, 0, 0, 0);
+            float: left;
+            height: 18px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 71px;
+        }
+        
+        .quick-view
+        {
+            border-top: 1px solid #dedede;
+            float: left;
+            padding: 12px 0 8px;
+            text-align: center;
+            width: 100%;
+        }
+        .free-engraving-icon
+        {
+            background: url("./images/combine-bg.png") no-repeat scroll -194px -104px rgba(0, 0, 0, 0);
+            float: left;
+            height: 18px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 94px;
+        }
+        .fp-pro-box-list
+        {
+            float: left;
+            margin: 15px 0 0;
+            width: 100%;
+        }
+        .fp-display-list
+        {
+            background: none repeat scroll 0 0 #fff;
+            border: 1px solid #d0d0d0;
+            float: left;
+            height: 235px;
+            position: relative;
+            text-align: center;
+            width: 20%;
+        }
+        .fp-display-list span
+        {
+            display: inline-block;
+            height: 100%;
+        }
+        .fp-display-list *
+        {
+            vertical-align: middle;
+        }
+        .fp-detail-list
+        {
+            float: left;
+            padding: 5px 0 0 1%;
+            width: 78%;
+        }
+        .fp-detail-list h4
+        {
+            float: left;
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 16px;
+            max-height: 35px;
+            overflow: hidden;
+            padding: 0;
+            text-align: left;
+            text-transform: uppercase;
+            width: 100%;
+        }
+        .fp-detail-list h4 a
+        {
+            color: #222;
+        }
+        .fp-detail-list h4 a:hover
+        {
+            color: #854220;
+        }
+        .fp-detail-list p
+        {
+            color: #222;
+            float: left;
+            font-size: 12px;
+            line-height: 18px;
+            max-height: 55px;
+            overflow: hidden;
+            padding: 5px 0 0;
+            width: 100%;
+        }
+        .price-list
+        {
+            color: #854220;
+            float: left;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 15px;
+            padding: 10px 0 5px;
+            text-align: left;
+            width: 100%;
+        }
+        .rating-list
+        {
+            float: left;
+            padding: 10px 0;
+            text-align: left;
+            width: 100%;
+        }
+        .rating-list img
+        {
+            margin: 0 2px 0 0;
+        }

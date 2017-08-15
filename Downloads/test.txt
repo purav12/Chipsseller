@@ -1,0 +1,49 @@
+--select DISTINCT Proft_Loss from DailyDetails
+
+--Won           Amount Stock
+--Profit         Amount Stock Profit
+--Loss           Amount Stock
+--Defeat         Amount Stock
+--Banned         Amount Stock
+
+
+--Last 24 hours
+select Count(*) as TotalOrder,Day(CreateDate) as Day,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate from DailyDetails  where CreateDate BETWEEN dateadd(hour,-24,GETDATE()) and getdate() GROUP BY DATEPART([hour], CreateDate),Day(CreateDate)  ORDER BY datepart([hour], CreateDate) Asc
+select Count(*) as TotalOrder,Day(CreateDate) as Day,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate from DailyDetails  where CreateDate BETWEEN dateadd(hour,-24,GETDATE()) and getdate()  and Proft_Loss='Profit'  GROUP BY DATEPART([hour], CreateDate),Day(CreateDate)  ORDER BY datepart([hour], CreateDate) Asc
+
+
+--Last 7 days
+select Count(*) as TotalOrder,Day(CreateDate) as Day,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where  CreateDate between dateadd(day,-7,dateadd(dd, 0, datediff(dd, 0, getdate()))) and dateadd(dd, 0, datediff(dd, 0, getdate())) group by Day(CreateDate) order by Day(CreateDate) Asc  
+select Count(*) as TotalOrder,Day(CreateDate) as Day,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where  CreateDate between dateadd(day,-7,dateadd(dd, 0, datediff(dd, 0, getdate()))) and dateadd(dd, 0, datediff(dd, 0, getdate())) and Proft_Loss='Profit' group by Day(CreateDate) order by Day(CreateDate) Asc  
+
+
+--This Month
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where month(CreateDate)= month(getdate()) and year(CreateDate)= year(getdate())  group by Month(CreateDate) order by Month(CreateDate) Asc  
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where month(CreateDate)= month(getdate()) and year(CreateDate)= year(getdate())  and Proft_Loss='Profit' group by Month(CreateDate) order by Month(CreateDate) Asc  
+
+
+--Last Month
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where CONVERT(CHAR(10),CreateDate,101) BETWEEN CONVERT(CHAR(10),DATEADD(dd,-(DAY(DATEADD(mm,2,getdate()))-1),DATEADD(mm,-1,getdate())),101) AND CONVERT(CHAR(10),DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0)),101) group by Month(CreateDate) order by Month(CreateDate) Asc  
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where CONVERT(CHAR(10),CreateDate,101) BETWEEN CONVERT(CHAR(10),DATEADD(dd,-(DAY(DATEADD(mm,2,getdate()))-1),DATEADD(mm,-1,getdate())),101) AND CONVERT(CHAR(10),DATEADD(s,-1,DATEADD(mm, DATEDIFF(m,0,GETDATE()),0)),101)  and Proft_Loss='Profit' group by Month(CreateDate) order by Month(CreateDate) Asc  
+
+
+
+--Quarterly
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where MONTH(CreateDate) BETWEEN MONTH(DATEADD(MONTH,-3,GETDATE())) AND MONTH(GETDATE())  and year(CreateDate)= year(getdate()) group by Month(CreateDate) order by Month(CreateDate) Asc  
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where MONTH(CreateDate) BETWEEN MONTH(DATEADD(MONTH,-3,GETDATE())) AND MONTH(GETDATE())  and year(CreateDate)= year(getdate()) and Proft_Loss='Profit' group by Month(CreateDate) order by Month(CreateDate) Asc  
+
+
+
+--This Year
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where year(CreateDate)= year(getdate()) group by Month(CreateDate) order by Month(CreateDate) Asc  
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where year(CreateDate)= year(getdate()) and Proft_Loss='Profit' group by Month(CreateDate) order by Month(CreateDate) Asc  
+
+
+
+--Last Year
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where year(CreateDate)= year(DATEADD(YEAR,-1,GETDATE())) group by Month(CreateDate) order by Month(CreateDate) Asc  
+select Count(*) TotalOrder,Month(CreateDate) as Month,Sum(cast(Stock as int)) as Stock,Sum(cast(Amount as int)) as Amount,sum(Amount)-(sum(Cast(Stock as int))*avg(Cast(CurrentRate as float)))  as Profit,avg(Cast(CurrentRate as float)) as CurrentRate  from DailyDetails where year(CreateDate)= year(DATEADD(YEAR,-1,GETDATE())) and Proft_Loss='Profit' group by Month(CreateDate) order by Month(CreateDate) Asc  
+ 
+ 
+
+ 

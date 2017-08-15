@@ -1,0 +1,35 @@
+<div>
+	<table class="mGrid" cellspacing="0" id="ContentPlaceHolder1_grdDaily" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">Type</th><th scope="col">Stock</th><th scope="col">Amount</th><th scope="col">Customer Name</th><th scope="col">Status</th><th scope="col">Date</th><th scope="col">Rate</th>
+		</tr><tr>
+			<td>5</td><td>Sell</td><td>150</td><td>1340</td><td>Shubham Mathur</td><td>Profit</td><td>6/28/2013 12:00:00 AM</td><td>8.93333333333333</td>
+		</tr><tr class="alt">
+			<td>6</td><td>Sell</td><td>1000</td><td>8750</td><td>Hansa Jayanth</td><td>Profit</td><td>6/28/2013 12:00:00 AM</td><td>8.75</td>
+		</tr><tr>
+			<td>8</td><td>Sell</td><td>500</td><td>4400</td><td>Harsh Mehta</td><td>Profit</td><td>6/28/2013 12:00:00 AM</td><td>8.8</td>
+		</tr><tr class="alt">
+			<td>9</td><td>Sell</td><td>50</td><td>500</td><td>Dharmin Shah</td><td>Profit</td><td>6/28/2013 12:00:00 AM</td><td>10</td>
+		</tr><tr>
+			<td>12</td><td>Sell</td><td>50</td><td>500</td><td>Dharmin Shah</td><td>Profit</td><td>6/29/2013 12:00:00 AM</td><td>10</td>
+		</tr><tr class="alt">
+			<td>13</td><td>Sell</td><td>50</td><td>475</td><td>Shubham Mathur</td><td>Profit</td><td>6/29/2013 12:00:00 AM</td><td>9.5</td>
+		</tr><tr>
+			<td>16</td><td>Sell</td><td>50</td><td>500</td><td>Dharmin Shah</td><td>Profit</td><td>6/29/2013 12:00:00 AM</td><td>10</td>
+		</tr><tr class="alt">
+			<td>18</td><td>Buy</td><td>1000</td><td>6000</td><td>Rishit Shah</td><td>Loss</td><td>6/29/2013 12:00:00 AM</td><td>6</td>
+		</tr><tr>
+			<td>19</td><td>Sell</td><td>50</td><td>438</td><td>Shubham Mathur</td><td>Profit</td><td>6/29/2013 12:00:00 AM</td><td>8.76</td>
+		</tr><tr class="alt">
+			<td>7</td><td>Sell</td><td>50</td><td>500</td><td>Nanik Chennai</td><td>Profit</td><td>6/29/2013 12:00:00 AM</td><td>10</td>
+		</tr><tr>
+			<td>10</td><td>Sell</td><td>500</td><td>4400</td><td>Hansa Jayanth</td><td>Profit</td><td>6/30/2013 12:00:00 AM</td><td>8.8</td>
+		</tr><tr class="alt">
+			<td>14</td><td>Sell</td><td>10</td><td>150</td><td>Kunal Kamdar</td><td>Profit</td><td>6/30/2013 12:00:00 AM</td><td>15</td>
+		</tr><tr>
+			<td>15</td><td>Sell</td><td>20</td><td>200</td><td>Kunal Kamdar</td><td>Profit</td><td>6/30/2013 12:00:00 AM</td><td>10</td>
+		</tr><tr class="alt">
+			<td>17</td><td>Buy</td><td>3000</td><td>18800</td><td>Rishit Shah</td><td>Loss</td><td>6/30/2013 12:00:00 AM</td><td>6.26</td>
+		</tr>
+	</table>
+</div><br></br><div><tr><td ><br></br>Total Profit &nbsp&nbsp&nbsp</td><td >22153 &nbsp Rs</td></tr><tr><td><br></br>Total Loss &nbsp&nbsp&nbsp </td><td>24800 &nbsp Rs</td></tr><tr><td><br></br>Earn  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>-2647  (Hacked - 0,Cheat - 0  ) &nbsp Rs</td></tr><tr><td><br></br><br></br><br></br> <tr><td><br></br>Won &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>0 &nbsp Rs</td></tr> <tr><td><br></br>Lost &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>0 &nbsp Rs</td></tr> <tr><td><br></br>Banned &nbsp&nbsp&nbsp&nbsp&nbsp</td><td>0 &nbsp Rs</td></tr> <br></br><br></br><br></br>  <tr>Chips Remaining &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp</td><td>1520 &nbsp Million</td></tr>  <br></br><br></br><br></br><tr>Total Stock &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp</td><td>6480 &nbsp Million</td></tr><tr><td><br></br>Total Amount &nbsp&nbsp&nbsp</td><td>46953 &nbsp Rs</td></tr></div>

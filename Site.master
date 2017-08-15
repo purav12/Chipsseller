@@ -1,0 +1,414 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" ClientIDMode="Static" CodeFile="Site.master.cs"
+    Inherits="Site" %>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Chips Seller India</title>
+    <meta name="keywords" content="chip seller india,Facebook Poker Chips Seller India,Poker Chips,Chips Seller India,Purav Mehta Zynga Poker,Zynga Poker Chips,Facebook Poker Chips,Purav Mehta Chips Seller,zbotgui,zbot,zbot empty table, zbottable finder" />
+    <meta name="description" content="Connect With Best Chips Sellers In India To Buy Or Sell Zynga Poker Chips" />
+    <meta name="msvalidate.01" content="chipssellerindia" />
+    <meta name="googlebot" content="index, follow" />
+    <%--<meta name="google-site-verification" content="xo5Ss0SZIkCR2-AdnhjQzvg4QOxBguwdpzLOf6uO6k0" />--%>
+    <meta name="google-site-verification" content="-rmY5iGCKpKVMim-9kgflpMvc-nia9qe2tAdFrJjBWk" />
+    <meta name="revisit-after" content="3 Days" />
+    <meta name="robots" content="all" />
+    <meta name="robots" content="index, follow" />
+    <link href="layout/styles/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="layout/styles/mediaqueries.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" type="image/png" href="Images/favicon1.png" />
+    <link href="layout/scripts/responsiveslides.js-v1.53/responsiveslides.css" rel="stylesheet"
+        type="text/css" media="all" />
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fnmahgkkkbneafgnndnbbjbjecbnahde">
+    <script language="javascript" type="text/javascript">
+        function addBookmark() {
+            alert('Press Ctrl + D ');
+        }
+        function addRateList() {
+            alert('Temporary Closed');
+        }
+
+    </script>
+    <script src="Js/jquery.min.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+<link href="layout/styles/ie/ie8.css" rel="stylesheet" type="text/css" media="all">
+<script src="layout/scripts/ie/css3-mediaqueries.min.js"></script>
+<script src="layout/scripts/ie/html5shiv.min.js"></script>
+<![endif]-->
+    <!-- Slider -->
+    <%--Side Button--%>
+    <style type="text/css">
+        input[type=text] {
+            border: 1px solid #717171 !important;
+        }
+
+        textarea {
+            border: 1px solid #717171 !important;
+        }
+
+        select {
+            border: 1px solid #717171 !important;
+        }
+    </style>
+    <style type="text/css">
+        #fbtab {
+            background: url(Images/facebook-logo-square-webtreatsetc.png) no-repeat; /* Path to Image */
+            right: 1px; /* change this to left: 1px; to put it on the left of the screen */
+            top: 30%;
+            height: 130px;
+            width: 30px;
+            margin: 0;
+            padding: 2px;
+            position: fixed;
+            z-index: 5000;
+        }
+
+            #fbtab a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            #fbtab:hover {
+                padding: 35px;
+            }
+
+        #Contacttab {
+            background: url(Images/mail-square-webtreatsetc.png) no-repeat; /* Path to Image */
+            right: 1px; /* change this to left: 1px; to put it on the left of the screen */
+            top: 47%;
+            height: 130px;
+            width: 30px;
+            margin: 0;
+            padding: 2px;
+            position: fixed;
+            z-index: 5000;
+        }
+
+            #Contacttab a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            #Contacttab:hover {
+                padding: 35px;
+            }
+
+        .footer-arrow-icon {
+            bottom: -5px;
+            display: block;
+            float: right;
+            margin-right: 5px;
+            position: fixed;
+            right: -5px;
+            text-align: right;
+            width: 40px;
+        }
+    </style>
+    <%--Side Button--%>
+    <%--Green Button--%>
+    <style type="text/css">
+        /* green */
+        .green {
+            padding-top: 30px;
+            width: 120px;
+            color: #e8f0de;
+            border: solid 1px #538312;
+            background: #64991e;
+            background: -webkit-gradient(linear, left top, left bottom, from(#7db72f), to(#4e7d0e));
+            background: -moz-linear-gradient(top, #7db72f, #4e7d0e);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db72f', endColorstr='#4e7d0e');
+        }
+
+            .green:hover {
+                background: #538018;
+                background: -webkit-gradient(linear, left top, left bottom, from(#6b9d28), to(#436b0c));
+                background: -moz-linear-gradient(top, #6b9d28, #436b0c);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b9d28', endColorstr='#436b0c');
+            }
+
+            .green:active {
+                color: #a9c08c;
+                background: -webkit-gradient(linear, left top, left bottom, from(#4e7d0e), to(#7db72f));
+                background: -moz-linear-gradient(top, #4e7d0e, #7db72f);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7d0e', endColorstr='#7db72f');
+            }
+    </style>
+    <%--Green Button--%>
+    <%--Scrolling--%>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            if ('<%=Request.Url%>' != null && '<%=Request.Url%>'.toString().toLowerCase().indexOf('customerquotecheckout.aspx') <= -1) {
+                //                 $('#header').attr("style", "left: 1;");
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() == 0) {
+                        $('#divscropp').attr('style', "display:none;");
+                    }
+                    else {
+                        $('#divscropp').attr("style", "display:block;");
+                    }
+                });
+            }
+
+        });
+
+    </script>
+    <%--Scrolling--%>
+    <script type="text/javascript">
+        function checkValidation() {
+            if (document.getElementById('txtName').value.replace(/^\s+|\s+$/g, '') == '') {
+                alert('Please enter Name.');
+                document.getElementById('txtName').value = '';
+                document.getElementById('txtName').focus();
+                return false;
+            }
+            else if (document.getElementById('txtMail').value.replace(/^\s+|\s+$/g, '') == '') {
+                alert('Please enter email address.');
+                document.getElementById('txtMail').value = '';
+                document.getElementById('txtMail').focus();
+                return false;
+            }
+            else if (document.getElementById('txtMail').value.replace(/^\s+|\s+$/g, '') != '' && !checkemail1(document.getElementById('txtMail').value)) {
+                alert('Please enter valid email address.');
+                document.getElementById('txtMail').value = '';
+                document.getElementById('txtMail').focus();
+                return false;
+            }
+            else if (document.getElementById('txtMessage').value.replace(/^\s+|\s+$/g, '') == '') {
+                alert('Please enter Message.');
+                document.getElementById('txtMessage').value = '';
+                document.getElementById('txtMessage').focus();
+                return false;
+            }
+            else {
+                alert("Message Sent Succesfully");
+                return true;
+            }
+        }
+
+
+        var testresults;
+        function checkemail1(str) {
+            var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{1,6}(?:\.[a-z]{1})?)$/i
+            if (filter.test(str))
+                testresults = true
+            else {
+                testresults = false
+            }
+            return (testresults)
+        }
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="" id="wrapper">
+    <form id="form1" runat="server" defaultbutton="btnTemp">
+        <div class="wrapper row1">
+            <header id="header" class="full_width clear">
+                <hgroup>
+                    <h1><a href="Default.aspx">Chips Seller India</a></h1>
+                    <h2>Buy Facebook Poker Chips (Since 8 Years)</h2>
+                </hgroup>
+                <div id="header-contact">
+                    <ul class="list none">
+                        <li>
+                            <%--facebook like and share--%>
+                            <div id="fb-root"></div>
+                            <script>    (function (d, s, id) {
+
+        var js, fjs = d.getElementsByTagName(s)[0];
+
+        if (d.getElementById(id)) return;
+
+        js = d.createElement(s); js.id = id;
+
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=316532861809747&version=v2.0";
+
+        fjs.parentNode.insertBefore(js, fjs);
+
+    }(document, 'script', 'facebook-jssdk'));</script>
+                            <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FZyngaChipsIndia&amp;width&amp;layout=button_count&amp;width=75&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border: none; overflow: hidden; float: left; height: 21px; width: 130px;" allowtransparency="true"></iframe>
+                            <%--facebook like and share--%>
+    
+                        </li>
+
+                        <li><span class="icon-envelope"></span><a href="mailto:puravmehta1212@yahoo.com?Subject=Hello" target="_top">puravmehta1212@yahoo.com</a></li>
+                        <li><span class="icon-phone"></span>+91 7405143466</li>
+                        <li><span class="icon-phone"></span>+91 9426462960</li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        <!-- ################################################################################################ -->
+        <div class="wrapper row2">
+            <nav id="topnav">
+                <ul class="clear">
+                    <li id="lidefault" runat="server" class="active"><a href="Default" title="Homepage">Homepage</a></li>
+                    <li id="buynow" runat="server"><a class="drop" href="#" title="Extra">Buy Now</a>
+                        <%--<li id="Li4" visible="false" runat="server" ><a class="drop" href="#" title="Extra">Buy Now</a>--%>
+                        <ul>
+                            <li><a href="Paypal.aspx" title="Rate">Zynga Poker Chips</a></li>
+                            <%--<li><a href="TP" title="Rate">Octroy TeenPatti Coins</a></li>--%>
+                        </ul>
+                    </li>
+                    <li id="liContact" runat="server"><a href="Contact">Contact Us</a></li>
+                    <li id="lisignup" runat="server"><a href="SignUp">Sign Up</a></li>
+                    <li id="liSignupfirst" runat="server"><a href="SignUpFirst">Members</a></li>
+                    <li id="liContactform" runat="server"><a href="ContactForm">Comments</a></li>
+                    <li id="libank" runat="server"><a href="Bank">Account Details</a></li>
+                    <li id="liaccount" runat="server"><a href="http://www.BeIndian.in/ChipsSeller" target="_blank">My Account</a></li>
+                    <li id="li1" runat="server"><a href="Share">Share</a></li>
+
+                    <li id="Li3" runat="server"><a class="drop" href="#" title="Extra">More</a>
+                        <ul>
+                            <li id="li2" runat="server"><a href="javascript:addBookmark();">Bookmark</a></li>
+                            <%--<li id="li4" runat="server"><a href="RateList.aspx">Rate List</a></li>--%>
+                            <li id="li5" runat="server"><a href="javascript:addRateList();">Rate List</a></li>
+
+                        </ul>
+                    </li>
+                    <li id="lilogin" runat="server"><a href="Login">
+                        <asp:Label ID="lblloggin" runat="server"></asp:Label></a></li>
+                    <li id="litablenames" runat="server"><a style="padding-bottom: 0px; padding-top: 0px;" href="Table">
+                        <input class="button green" style="padding-top: 25px" type="button" value="Table Names" />
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ################################################################################################ -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- Footer -->
+        <div class="wrapper row2">
+            <div id="footer" class="clear">
+                <div class="one_quarter first">
+                    <h2 class="footer_title">Footer Navigation
+                    </h2>
+                    <nav class="footer_nav">
+                        <ul class="nospace">
+                            <li><a href="Default.aspx">Home Page</a></li>
+                            <li><a href="SignUp.aspx">Sign Up</a></li>
+                            <li><a href="Contact.aspx">Contact Us</a></li>
+                            <li><a href="Login.aspx">Login</a></li>
+                            <li><a href="SignUpFirst.aspx">Members</a></li>
+                            <li><a href="Bank.aspx">Account Details</a></li>
+                            <li><a href="Terms.aspx">Terms And Conditions</a></li>
+                            <li><a href="Notice.aspx">Important Notice</a></li>
+
+
+                            <script>
+                                if (chrome.app.isInstalled) {
+                                    document.getElementById('install-button').style.display = 'none';
+                                }
+                            </script>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div style="width: 570px;" class="one_quarter">
+                    <h2 class="footer_title">Visitor Details</h2>
+                    <nav class="footer_nav">
+                        <!-- Visitor Counter -->
+                        <left><script type="text/javascript" src="http://widget.supercounters.com/hit.js" ></script><script type="text/javascript">
+                                                                                                                        sc_hit(602374, 0, 7);</script><br><noscript><a href="http://www.supercounters.com/hitcounter" target="_blank" >Free Hit Counter</a></noscript>
+           </left>
+                        <!-- END: Visitor Counter -->
+                        <br />
+                        <!-- BEGIN: Ipaddress.is -->
+                        <script type="text/javascript" src="http://ipaddress.is/js/ipwidget.js"></script>
+                        <script type="text/javascript">               var ip_widget_var = ip_widget_var || []; ip_widget("#EEEEEE", "#fcfcfc", "#000000", 0, 0, 205);</script>
+                        <noscript><a href="http://ipaddress.is" target="_blank">ip whois</a></noscript>
+                        <!-- END: Ipaddress.is -->
+                        <br />
+                        <br />
+                        <br />
+                        <!-- BEGIN: Flag Counter -->
+                        <a href="http://info.flagcounter.com/BUKG">
+                            <img src="http://s04.flagcounter.com/count/BUKG/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_100/viewers_0/labels_1/pageviews_1/flags_1/" style="width: 70%" alt="Flag Counter" border="0"></a>
+                    </nav>
+                </div>
+                <div class="one_quarter">
+                    <h2 class="footer_title">Any Question</h2>
+                    <div class="form-input clear">
+                        <label for="ft_author">
+                            Name <span class="required">*</span><br>
+                            <asp:TextBox ID="txtName" Style="width: 200px; margin-bottom: 20px;" class="footertextbox"
+                                runat="server"></asp:TextBox>
+                        </label>
+                        <label for="ft_email">
+                            Email <span class="required">*</span><br>
+                            <asp:TextBox ID="txtMail" Style="width: 200px; margin-bottom: 20px;" class="footertextbox"
+                                runat="server"></asp:TextBox>
+                        </label>
+                    </div>
+                    <div class="form-message">
+                        <label for="ft_email">
+                            Message <span class="required">*</span><br>
+                            <asp:TextBox ID="txtMessage" Style="width: 250px;" class="footertextbox" runat="server"
+                                cols="25" Rows="5" TextMode="MultiLine"></asp:TextBox>
+                        </label>
+                    </div>
+                    <p>
+                        <asp:Button ID="btnQuieckmsg" Style="border-radius: 5px;" OnClientClick="return checkValidation();"
+                            class="button small orange" Text="Send" runat="server" OnClick="btnQuieckmsg_Click" />
+                        &nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper row4">
+            <div id="copyright" class="clear">
+                <p class="fl_left">
+                    Copyright &copy; 2008 - 2016 - All Rights Reserved - <a href="http://puravam.com/" target="_blank">puravam.com</a>
+                </p>
+                <p class="fl_right">
+                    <a href="http://chipsseller.com/" title="Thanx For Visiting">P M</a>
+                </p>
+            </div>
+        </div>
+        <div style="display: none">
+            <asp:Button ID="btnTemp" runat="server" OnClientClick="return false;" />
+        </div>
+        <%--Scrolling--%>
+        <div class="footer-arrow-icon" style="display: none;" id="divscropp">
+            <a onclick="$('html, body').animate({ scrollTop: $('#wrapper').offset().top }, 'slow'); ">
+                <img border="0" src="images/totop.png">
+            </a>
+        </div>
+        <%--Scrolling--%>
+        <!-- Scripts -->
+        <script src="Js/jquery-latest.min.js" type="text/javascript"></script>
+        <script src="Js/jquery-ui.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.jQuery || document.write('<script src="layout/scripts/jquery-latest.min.js"><\/script>\
+            <script src="layout/scripts/jquery-ui.min.js"><\/script>')
+        </script>
+        <script type="text/javascript">        jQuery(document).ready(function ($) { $('img').removeAttr('width height'); });</script>
+        <script type="text/javascript" src="layout/scripts/jquery-mobilemenu.min.js"></script>
+        <script type="text/javascript" src="layout/scripts/custom.js"></script>
+        <script type="text/javascript" src="layout/scripts/responsiveslides.js-v1.53/responsiveslides.min.js"></script>
+        <%--Side Buttons--%>
+        <p id="fbtab">
+            <a href="http://facebook.com/pokerking1212"></a>
+        </p>
+        <p id="Contacttab">
+            <a href="http://chipsseller.com/Contact.aspx"></a>
+        </p>
+    </form>
+    <script type="text/javascript" charset="utf-8">        var ju_num = "A9C337D3-2189-4D78-B7EA-CDBFABC81DF9"; var asset_host = (("https:" == document.location.protocol) ? "https" : "http") + '://d2j3qa5nc37287.cloudfront.net/'; (function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = asset_host + 'coupon_code1.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();</script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-51914634-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>

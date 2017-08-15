@@ -1,0 +1,163 @@
+<div>
+	<table class="mGrid" cellspacing="0" id="ContentPlaceHolder1_grdDaily" style="width:100%;border-collapse:collapse;">
+		<tr>
+			<th scope="col">Id</th><th scope="col">Type</th><th scope="col">Stock</th><th scope="col">Amount</th><th scope="col">Customer Name</th><th scope="col">Status</th><th scope="col">Date</th><th scope="col">Rate</th>
+		</tr><tr>
+			<td>492</td><td>Sell</td><td>102</td><td>900</td><td>Karan Raiyani</td><td>Profit</td><td>11/2/2013 1:38:18 AM</td><td>8.82352941176471</td>
+		</tr><tr class="alt">
+			<td>493</td><td>Sell</td><td>102</td><td>980</td><td>Vipul Chaudhary</td><td>Profit</td><td>11/2/2013 1:38:35 AM</td><td>9.6078431372549</td>
+		</tr><tr>
+			<td>494</td><td>Buy</td><td>1500</td><td>7800</td><td>Vipul Shah</td><td>Loss</td><td>11/2/2013 1:39:07 AM</td><td>5.2</td>
+		</tr><tr class="alt">
+			<td>495</td><td>Sell</td><td>58</td><td>500</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/2/2013 1:39:20 AM</td><td>8.62068965517241</td>
+		</tr><tr>
+			<td>496</td><td>Sell</td><td>367</td><td>2900</td><td>Nanik Chennai</td><td>Profit</td><td>11/2/2013 1:40:07 AM</td><td>7.90190735694823</td>
+		</tr><tr class="alt">
+			<td>497</td><td>Sell</td><td>23</td><td>200</td><td>Kunal Kamdar</td><td>Profit</td><td>11/2/2013 11:26:32 AM</td><td>8.69565217391304</td>
+		</tr><tr>
+			<td>498</td><td>Sell</td><td>23</td><td>200</td><td>Kunal Kamdar</td><td>Profit</td><td>11/3/2013 1:00:27 AM</td><td>8.69565217391304</td>
+		</tr><tr class="alt">
+			<td>499</td><td>Sell</td><td>125</td><td>1000</td><td>Nanik Chennai</td><td>Profit</td><td>11/3/2013 8:47:18 AM</td><td>8</td>
+		</tr><tr>
+			<td>500</td><td>Sell</td><td>55</td><td>500</td><td>Milan Kumar</td><td>Profit</td><td>11/4/2013 10:47:43 AM</td><td>9.09090909090909</td>
+		</tr><tr class="alt">
+			<td>501</td><td>Sell</td><td>23</td><td>200</td><td>Kunal Kamdar</td><td>Profit</td><td>11/4/2013 10:48:38 AM</td><td>8.69565217391304</td>
+		</tr><tr>
+			<td>502</td><td>Won</td><td>430</td><td>3550</td><td>Zynga Poker</td><td>Won</td><td>11/4/2013 10:50:38 AM</td><td>8.25581395348837</td>
+		</tr><tr class="alt">
+			<td>503</td><td>Sell</td><td>200</td><td>1700</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/4/2013 1:13:53 PM</td><td>8.5</td>
+		</tr><tr>
+			<td>504</td><td>Sell</td><td>119</td><td>1000</td><td>Dipak Abhi (Avi)</td><td>Profit</td><td>11/5/2013 3:01:17 AM</td><td>8.40336134453782</td>
+		</tr><tr class="alt">
+			<td>505</td><td>Sell</td><td>55</td><td>500</td><td>Milan Kumar</td><td>Profit</td><td>11/5/2013 7:18:47 AM</td><td>9.09090909090909</td>
+		</tr><tr>
+			<td>506</td><td>Sell</td><td>364</td><td>3000</td><td>Bhusan Chichani</td><td>Profit</td><td>11/6/2013 10:29:35 AM</td><td>8.24175824175824</td>
+		</tr><tr class="alt">
+			<td>507</td><td>Sell</td><td>202</td><td>1600</td><td>Nanik Chennai</td><td>Profit</td><td>11/6/2013 10:29:47 AM</td><td>7.92079207920792</td>
+		</tr><tr>
+			<td>508</td><td>Sell</td><td>45</td><td>414</td><td>Milan Kumar</td><td>Profit</td><td>11/7/2013 1:31:39 PM</td><td>9.2</td>
+		</tr><tr class="alt">
+			<td>509</td><td>Sell</td><td>1000</td><td>6300</td><td>Hansa Jayanth</td><td>Profit</td><td>11/7/2013 1:32:02 PM</td><td>6.3</td>
+		</tr><tr>
+			<td>510</td><td>Buy</td><td>2000</td><td>10600</td><td>Vipul Shah</td><td>Loss</td><td>11/7/2013 1:32:30 PM</td><td>5.3</td>
+		</tr><tr class="alt">
+			<td>511</td><td>Sell</td><td>118</td><td>1000</td><td>Dipak Abhi (Avi)</td><td>Profit</td><td>11/8/2013 9:50:25 AM</td><td>8.47457627118644</td>
+		</tr><tr>
+			<td>512</td><td>Sell</td><td>200</td><td>1700</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/8/2013 9:50:55 AM</td><td>8.5</td>
+		</tr><tr class="alt">
+			<td>513</td><td>Sell</td><td>50</td><td>400</td><td>Vansh Jain</td><td>Profit</td><td>11/9/2013 8:30:37 AM</td><td>8</td>
+		</tr><tr>
+			<td>514</td><td>Sell</td><td>102</td><td>900</td><td>Karan Raiyani</td><td>Profit</td><td>11/9/2013 8:30:48 AM</td><td>8.82352941176471</td>
+		</tr><tr class="alt">
+			<td>515</td><td>Sell</td><td>250</td><td>2000</td><td>Nanik Chennai</td><td>Profit</td><td>11/9/2013 8:31:12 AM</td><td>8</td>
+		</tr><tr>
+			<td>516</td><td>Sell</td><td>1000</td><td>5900</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/9/2013 8:32:17 AM</td><td>5.9</td>
+		</tr><tr class="alt">
+			<td>517</td><td>Buy</td><td>2000</td><td>10600</td><td>Vipul Shah</td><td>Loss</td><td>11/9/2013 8:33:10 AM</td><td>5.3</td>
+		</tr><tr>
+			<td>518</td><td>Sell</td><td>50</td><td>400</td><td>Nanik Chennai</td><td>Profit</td><td>11/9/2013 1:32:02 PM</td><td>8</td>
+		</tr><tr class="alt">
+			<td>519</td><td>Sell</td><td>55</td><td>500</td><td>Milan Kumar</td><td>Profit</td><td>11/11/2013 11:01:19 AM</td><td>9.09090909090909</td>
+		</tr><tr>
+			<td>520</td><td>Buy</td><td>3270</td><td>16400</td><td>Vipul Shah</td><td>Loss</td><td>11/12/2013 11:49:01 AM</td><td>5.01529051987768</td>
+		</tr><tr class="alt">
+			<td>521</td><td>Sell</td><td>1770</td><td>10650</td><td>Chandni Pandya</td><td>Profit</td><td>11/12/2013 11:55:15 AM</td><td>6.01694915254237</td>
+		</tr><tr>
+			<td>522</td><td>Sell</td><td>1000</td><td>6200</td><td>Dhrumil Cricketer</td><td>Profit</td><td>11/12/2013 11:57:00 AM</td><td>6.2</td>
+		</tr><tr class="alt">
+			<td>523</td><td>Sell</td><td>175</td><td>1400</td><td>Nanik Chennai</td><td>Profit</td><td>11/12/2013 11:57:15 AM</td><td>8</td>
+		</tr><tr>
+			<td>524</td><td>Sell</td><td>55</td><td>500</td><td>Milan Kumar</td><td>Profit</td><td>11/13/2013 12:15:34 PM</td><td>9.09090909090909</td>
+		</tr><tr class="alt">
+			<td>525</td><td>Sell</td><td>237</td><td>1900</td><td>Nanik Chennai</td><td>Profit</td><td>11/13/2013 12:15:55 PM</td><td>8.0168776371308</td>
+		</tr><tr>
+			<td>526</td><td>Sell</td><td>400</td><td>3280</td><td>Love Siahna</td><td>Profit</td><td>11/13/2013 12:16:10 PM</td><td>8.2</td>
+		</tr><tr class="alt">
+			<td>527</td><td>Sell</td><td>100</td><td>850</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/14/2013 10:20:24 AM</td><td>8.5</td>
+		</tr><tr>
+			<td>528</td><td>Sell</td><td>242</td><td>2000</td><td>Harnit Khatri</td><td>Profit</td><td>11/14/2013 10:20:53 AM</td><td>8.26446280991735</td>
+		</tr><tr class="alt">
+			<td>529</td><td>Sell</td><td>262</td><td>2100</td><td>Nanik Chennai</td><td>Profit</td><td>11/14/2013 10:22:37 AM</td><td>8.01526717557252</td>
+		</tr><tr>
+			<td>530</td><td>Sell</td><td>250</td><td>2000</td><td>Karan Raiyani</td><td>Profit</td><td>11/15/2013 4:57:51 AM</td><td>8</td>
+		</tr><tr class="alt">
+			<td>531</td><td>Sell</td><td>200</td><td>1700</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/16/2013 8:05:58 AM</td><td>8.5</td>
+		</tr><tr>
+			<td>532</td><td>Buy</td><td>2000</td><td>10000</td><td>Vipul Shah</td><td>Loss</td><td>11/18/2013 11:01:43 AM</td><td>5</td>
+		</tr><tr class="alt">
+			<td>533</td><td>Sell</td><td>120</td><td>1000</td><td>Bhusan Chichani</td><td>Profit</td><td>11/18/2013 11:02:39 AM</td><td>8.33333333333333</td>
+		</tr><tr>
+			<td>534</td><td>Sell</td><td>1000</td><td>5900</td><td>Mridul</td><td>Profit</td><td>11/18/2013 11:02:56 AM</td><td>5.9</td>
+		</tr><tr class="alt">
+			<td>535</td><td>Sell</td><td>150</td><td>1300</td><td>Milan Kumar</td><td>Profit</td><td>11/18/2013 11:03:26 AM</td><td>8.66666666666667</td>
+		</tr><tr>
+			<td>536</td><td>Sell</td><td>56</td><td>500</td><td>Dev Desai</td><td>Profit</td><td>11/18/2013 11:05:39 AM</td><td>8.92857142857143</td>
+		</tr><tr class="alt">
+			<td>537</td><td>Sell</td><td>152</td><td>1300</td><td>Milan Kumar</td><td>Profit</td><td>11/20/2013 10:15:03 AM</td><td>8.55263157894737</td>
+		</tr><tr>
+			<td>538</td><td>Sell</td><td>200</td><td>1700</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/20/2013 10:15:22 AM</td><td>8.5</td>
+		</tr><tr class="alt">
+			<td>539</td><td>Buy</td><td>1000</td><td>4900</td><td>Dhawal Nanavati</td><td>Loss</td><td>11/20/2013 10:16:45 AM</td><td>4.9</td>
+		</tr><tr>
+			<td>540</td><td>Buy</td><td>1000</td><td>5000</td><td>Vipul Shah</td><td>Loss</td><td>11/20/2013 10:17:05 AM</td><td>5</td>
+		</tr><tr class="alt">
+			<td>541</td><td>Sell</td><td>1000</td><td>5800</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/20/2013 10:17:54 AM</td><td>5.8</td>
+		</tr><tr>
+			<td>542</td><td>Sell</td><td>400</td><td>2800</td><td>Nanik Chennai</td><td>Profit</td><td>11/20/2013 10:42:06 AM</td><td>7</td>
+		</tr><tr class="alt">
+			<td>543</td><td>Sell</td><td>100</td><td>800</td><td>Nanik Chennai</td><td>Profit</td><td>11/21/2013 12:04:46 PM</td><td>8</td>
+		</tr><tr>
+			<td>544</td><td>Buy</td><td>1200</td><td>5880</td><td>Dhawal Nanavati</td><td>Loss</td><td>11/21/2013 12:05:19 PM</td><td>4.9</td>
+		</tr><tr class="alt">
+			<td>545</td><td>Buy</td><td>1000</td><td>5100</td><td>Vipul Shah</td><td>Loss</td><td>11/21/2013 12:10:10 PM</td><td>5.1</td>
+		</tr><tr>
+			<td>546</td><td>Sell</td><td>100</td><td>875</td><td>Milan Kumar</td><td>Profit</td><td>11/21/2013 12:10:26 PM</td><td>8.75</td>
+		</tr><tr class="alt">
+			<td>547</td><td>Sell</td><td>966</td><td>5700</td><td>Ravi Banglore Amber</td><td>Profit</td><td>11/21/2013 12:11:48 PM</td><td>5.90062111801242</td>
+		</tr><tr>
+			<td>548</td><td>Sell</td><td>61</td><td>500</td><td>Priyank Assam</td><td>Profit</td><td>11/21/2013 12:12:08 PM</td><td>8.19672131147541</td>
+		</tr><tr class="alt">
+			<td>549</td><td>Sell</td><td>578</td><td>3700</td><td>Hansa Jayanth</td><td>Profit</td><td>11/21/2013 12:23:52 PM</td><td>6.40138408304498</td>
+		</tr><tr>
+			<td>550</td><td>Sell</td><td>150</td><td>1300</td><td>Milan Kumar</td><td>Profit</td><td>11/22/2013 11:09:36 AM</td><td>8.66666666666667</td>
+		</tr><tr class="alt">
+			<td>551</td><td>Sell</td><td>115</td><td>1000</td><td>Milan Kumar</td><td>Profit</td><td>11/24/2013 6:01:02 AM</td><td>8.69565217391304</td>
+		</tr><tr>
+			<td>552</td><td>Sell</td><td>1675</td><td>10000</td><td>Dhrumil Cricketer</td><td>Profit</td><td>11/25/2013 1:07:25 PM</td><td>5.97014925373134</td>
+		</tr><tr class="alt">
+			<td>553</td><td>Sell</td><td>235</td><td>2000</td><td>Milan Kumar</td><td>Profit</td><td>11/25/2013 1:07:39 PM</td><td>8.51063829787234</td>
+		</tr><tr>
+			<td>554</td><td>Sell</td><td>185</td><td>1400</td><td>Nanik Chennai</td><td>Profit</td><td>11/25/2013 1:08:11 PM</td><td>7.56756756756757</td>
+		</tr><tr class="alt">
+			<td>556</td><td>Buy</td><td>1675</td><td>8480</td><td>Vipul Shah</td><td>Loss</td><td>11/26/2013 1:28:59 PM</td><td>5.06268656716418</td>
+		</tr><tr>
+			<td>557</td><td>Sell</td><td>129</td><td>1100</td><td>Milan Kumar</td><td>Profit</td><td>11/26/2013 1:29:44 PM</td><td>8.52713178294574</td>
+		</tr><tr class="alt">
+			<td>558</td><td>Sell</td><td>188</td><td>1600</td><td>Milan Kumar</td><td>Profit</td><td>11/27/2013 1:50:25 PM</td><td>8.51063829787234</td>
+		</tr><tr>
+			<td>559</td><td>Sell</td><td>103</td><td>800</td><td>Nanik Chennai</td><td>Profit</td><td>11/27/2013 1:53:05 PM</td><td>7.76699029126214</td>
+		</tr><tr class="alt">
+			<td>560</td><td>Sell</td><td>500</td><td>3000</td><td>Ashish Tut</td><td>Profit</td><td>11/27/2013 1:53:21 PM</td><td>6</td>
+		</tr><tr>
+			<td>561</td><td>Sell</td><td>50</td><td>500</td><td>Karan Raiyani</td><td>Profit</td><td>11/27/2013 1:53:35 PM</td><td>10</td>
+		</tr><tr class="alt">
+			<td>563</td><td>Buy</td><td>1000</td><td>5100</td><td>Vipul Shah</td><td>Loss</td><td>11/28/2013 9:19:05 AM</td><td>5.1</td>
+		</tr><tr>
+			<td>564</td><td>Sell</td><td>235</td><td>2000</td><td>Karan Raiyani</td><td>Profit</td><td>11/29/2013 3:31:15 AM</td><td>8.51063829787234</td>
+		</tr><tr class="alt">
+			<td>565</td><td>Buy</td><td>2000</td><td>9800</td><td>Rishit Shah</td><td>Loss</td><td>11/29/2013 3:44:01 AM</td><td>4.9</td>
+		</tr><tr>
+			<td>566</td><td>Buy</td><td>1000</td><td>4900</td><td>Rishit Shah</td><td>Loss</td><td>11/29/2013 4:51:27 AM</td><td>4.9</td>
+		</tr><tr class="alt">
+			<td>567</td><td>Sell</td><td>1000</td><td>6500</td><td>Chandni Pandya</td><td>Profit</td><td>11/29/2013 4:51:59 AM</td><td>6.5</td>
+		</tr><tr>
+			<td>568</td><td>Sell</td><td>75</td><td>600</td><td>Nanik Chennai</td><td>Profit</td><td>11/29/2013 4:55:40 AM</td><td>8</td>
+		</tr><tr class="alt">
+			<td>569</td><td>Sell</td><td>310</td><td>2600</td><td>Milan Kumar</td><td>Profit</td><td>11/29/2013 4:56:16 AM</td><td>8.38709677419355</td>
+		</tr><tr>
+			<td>570</td><td>Sell</td><td>90</td><td>700</td><td>Nanik Chennai</td><td>Profit</td><td>11/29/2013 9:12:37 AM</td><td>7.77777777777778</td>
+		</tr><tr class="alt">
+			<td>571</td><td>Sell</td><td>180</td><td>1500</td><td>Milan Kumar</td><td>Profit</td><td>11/29/2013 8:16:13 PM</td><td>8.33333333333333</td>
+		</tr>
+	</table>
+</div><br></br><div><tr><td ><br></br>Total Profit &nbsp&nbsp&nbsp</td><td >135749 &nbsp Rs</td></tr><tr><td><br></br>Total Loss &nbsp&nbsp&nbsp </td><td>104560 &nbsp Rs</td></tr><tr><td><br></br>Earn  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>31189  (Hacked - 0,Cheat - 0  ) &nbsp Rs</td></tr><tr><td><br></br><br></br><br></br> <tr><td><br></br>Won &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>3550 &nbsp Rs</td></tr> <tr><td><br></br>Lost &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>0 &nbsp Rs</td></tr> <tr><td><br></br>Banned &nbsp&nbsp&nbsp&nbsp&nbsp</td><td>0 &nbsp Rs</td></tr> <br></br><br></br><br></br>  <tr>Chips Remaining &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp</td><td>1593 &nbsp Million</td></tr>  <br></br><br></br><br></br><tr>Total Stock &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp</td><td>40557 &nbsp Million</td></tr><tr><td><br></br>Total Amount &nbsp&nbsp&nbsp</td><td>243859 &nbsp Rs</td></tr></div>
