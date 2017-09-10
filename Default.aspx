@@ -59,7 +59,7 @@
                                 <li><a href="#tab-1">Zynga Poker</a></li>
                                 <li><a href="#tab-2">Teen Patti</a></li>
                             </ul>
-                            <div class="tab-container" style="width: 835px;">
+                            <div class="tab-container" style="width: 95%;">
                                 <!-- Tab Content -->
                                 <div id="tab-1" class="tab-content clear">
                                     <h2>Zynga Poker&nbsp;
@@ -383,7 +383,7 @@
                 <div class="one_third">
                     <div class="clear push30">
                     </div>
-                    <div class="tab-wrapper clear">
+                   <%-- <div class="tab-wrapper clear">
                         <!-- PayPal Logo -->
                         <table style="border: none" cellpadding="10" cellspacing="0" align="center">
                             <tr>
@@ -406,7 +406,7 @@
                                     frameborder="0" width="104" height="23"></iframe>
                             </td>
                         </tr>
-                    </table>
+                    </table>--%>
                     <%--     <div class="tab-wrapper clear">
                         <!-- PayPal Logo -->
                         <table style="border: none" cellpadding="10" cellspacing="0" align="center">
@@ -429,7 +429,7 @@
                     </div>--%>
                     <div class="clear push30">
                     </div>
-                    <div style="margin-left: 50px">
+                    <div style="margin-left: 50px; border-style: solid; border-color: black;">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Chips Seller Responsive Side Menu -->
                         <ins class="adsbygoogle"
@@ -475,7 +475,7 @@
             <!-- ################################################################################################ -->
             <div class="clear">
             </div>
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Bottom Page -->
                 <ins class="adsbygoogle"
@@ -501,7 +501,7 @@
                     </section>
                 </div>
             </div>
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Main Page -->
                 <ins class="adsbygoogle"

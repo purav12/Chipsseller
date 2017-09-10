@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="wrapper row3">
         <div id="container">
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Main Page -->
                 <ins class="adsbygoogle"
@@ -86,20 +86,22 @@
             (This page is kind of forum we are not responsible for any comments below, kindly <a href="Contact.aspx" target="_blank">Contact Us</a> for more information)
             <br />
             <br />
-             <div class="one_half second">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- Post Page Responsive Side Menu -->
-                    <ins class="adsbygoogle"
-                        style="display: block"
-                        data-ad-client="ca-pub-1373088425496976"
-                        data-ad-slot="6569598241"
-                        data-ad-format="auto"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
+            <div class="one_half second" style="border-style: solid; border-color: black;">
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- Post Page Responsive Side Menu -->
+                <ins class="adsbygoogle"
+                    style="display: block"
+                    data-ad-client="ca-pub-1373088425496976"
+                    data-ad-slot="6569598241"
+                    data-ad-format="auto"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
             <div class="clear push50">
-               
+            </div>
+            <div class="clear push50">
+
                 <asp:Repeater ID="RepDetails" runat="server">
                     <HeaderTemplate>
                         <table style="border: 2px solid #df5015; width: 500px" cellpadding="0">
@@ -150,7 +152,7 @@
                 </asp:Repeater>
 
             </div>
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Bottom Page -->
                 <ins class="adsbygoogle"
@@ -159,7 +161,7 @@
                     data-ad-slot="6156822242"
                     data-ad-format="auto"></ins>
                 <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
+                        (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
         </div>

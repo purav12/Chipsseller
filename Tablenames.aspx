@@ -34,6 +34,11 @@
                 background: linear-gradient(#999999 0%,#000000 100%);
             }
     </style>
+    <script language="javascript" type="text/javascript">
+        function sendalert() {
+            alert('File is removed by google kindly contact on puravmehta1212@yahoo.com.');
+        }        
+    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="wrapper row3">
@@ -112,7 +117,7 @@
                         <td></td>
                         <td>
                             <asp:Button ID="Button2" class="button small orange" runat="server" Text="Download Application"
-                                OnClick="btnSendApp_Click"/>
+                                OnClick="btnSendApp_Click" OnClientClick="sendalert()" />
                              
                         </td>
                     </tr>

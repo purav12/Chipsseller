@@ -156,7 +156,7 @@ public partial class HisabNew : System.Web.UI.Page
     protected void btnsubmit_Click(object sender, EventArgs e)
     {
         string str = RemoveSpecialCharacter(txtcode.Text.Trim().ToCharArray());
-        if (str == "44")
+        if (str == "saveme")
         {
             foreach (RepeaterItem item in rptHisabDetails.Items)
             {

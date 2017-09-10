@@ -160,7 +160,7 @@ public partial class Tablenames : System.Web.UI.Page
 
     protected void btnSendApp_Click(object sender, EventArgs e)
     {
-        Response.Redirect("/zbotgui.rar");
+        //Response.Redirect("/zbotgui.rar");
     }
 
     protected void btnmodidownload_Click(object sender, EventArgs e)

@@ -255,14 +255,14 @@
                         </ul>
                     </li>
                     <li id="liContact" runat="server"><a href="Contact">Contact Us</a></li>
-                    <li id="lisignup" runat="server"><a href="SignUp">Sign Up</a></li>
-                    <li id="liSignupfirst" runat="server"><a href="SignUpFirst">Members</a></li>
+                    <li id="lisignup" visible="false" runat="server"><a href="SignUp">Sign Up</a></li>
+                    <li id="liSignupfirst" visible="false"  runat="server"><a href="SignUpFirst">Members</a></li>
                     <li id="liContactform" runat="server"><a href="ContactForm">Comments</a></li>
                     <li id="libank" runat="server"><a href="Bank">Account Details</a></li>
                     <li id="liaccount" runat="server"><a href="http://www.BeIndian.in/ChipsSeller" target="_blank">My Account</a></li>
-                    <li id="li1" runat="server"><a href="Share">Share</a></li>
+                    <li id="li1" visible="false" runat="server"><a href="Share">Share</a></li>
 
-                    <li id="Li3" runat="server"><a class="drop" href="#" title="Extra">More</a>
+                    <li id="Li3" visible="false" runat="server"><a class="drop" href="#" title="Extra">More</a>
                         <ul>
                             <li id="li2" runat="server"><a href="javascript:addBookmark();">Bookmark</a></li>
                             <%--<li id="li4" runat="server"><a href="RateList.aspx">Rate List</a></li>--%>

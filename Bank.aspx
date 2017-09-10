@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="wrapper row3">
         <div id="container">
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px;border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Main Page -->
                 <ins class="adsbygoogle"
@@ -251,7 +251,7 @@
                 </div>
                 <!-- ################################################################################################ -->
             </div>
-            <div class="one_third">
+            <div class="one_third" style="border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Post Page Responsive Side Menu -->
                 <ins class="adsbygoogle"
@@ -265,7 +265,7 @@
             </div>
             <div class="clear">
             </div>
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Bottom Page -->
                 <ins class="adsbygoogle"

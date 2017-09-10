@@ -17,7 +17,7 @@
     <%--<form id="form1" runat="server">--%>
     <div class="wrapper row3">
         <div id="container">
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Main Page -->
                 <ins class="adsbygoogle"
@@ -37,7 +37,7 @@
                         <asp:Label ID="lblalert" class="alert-msg warning" runat="server" Text="Label">Message Sent Succesfuly<a class="close" href="javascript:void(0)">X</a></asp:Label>
                         <br />
                         <img src="Images/contact_us.gif" width="100%" />
-                        <div runat="server" class="one_third first" id="newadvertise" style="float: right;">
+                        <div runat="server" class="one_third first" id="newadvertise" style="float: right; border-style: solid; border-color: black;">
                             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                             <!-- Post Page Responsive Side Menu -->
                             <ins class="adsbygoogle"
@@ -114,7 +114,7 @@
                     </article>
                 </section>
             </div>
-            <div style="margin-bottom: 5px">
+            <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <!-- Chips Seller Bottom Page -->
                 <ins class="adsbygoogle"

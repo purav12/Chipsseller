@@ -244,7 +244,7 @@
                     <!-- ################################################################################################ -->
                     <div class="clear">
                     </div>
-                    <div style="margin-bottom: 5px">
+                    <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Chips Seller Bottom Page -->
                         <ins class="adsbygoogle"
@@ -258,7 +258,7 @@
                     </div>
                     <div class="clear">
                     </div>
-                    <div style="margin-bottom: 5px">
+                    <div style="margin-bottom: 5px; border-style: solid; border-color: black;">
                         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <!-- Chips Seller Main Page -->
                         <ins class="adsbygoogle"
